@@ -1,9 +1,9 @@
 terraform {
     backend "s3" {
-        bucket = "test-581199458150"
+        bucket = "test-362268463106"
         key    = "test/dev/terraform.tfstate"
-        region = "us-east-1"
-        dynamodb_table = "test-581199458150-locks"
+        region         = "eu-north-1"
+        dynamodb_table = "test-362268463106-locks"
         encrypt        = true
     }
 }

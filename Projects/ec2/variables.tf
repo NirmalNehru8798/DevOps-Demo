@@ -5,10 +5,10 @@
     default = "false"
    }
   variable "subnet_id"     {
-    default = "subnet-542ecb32"
+    default = "subnet-018711e0e83c713bb"
    }
   variable "env"   { }
   
   variable "vpc_id" {
-    default = "vpc-b50e3fcf"
+    default = "vpc-0790402dc5637be6e"
   }

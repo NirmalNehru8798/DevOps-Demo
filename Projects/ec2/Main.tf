@@ -6,7 +6,7 @@ module "ec2_instance" {
   instance_type = var.instance_type
   key_name      = var.key_name
   monitoring    = var.monitoring
-  subnet_id     = "subnet-542ecb32"
+  subnet_id     = "subnet-018711e0e83c713bb"
   vpc_security_group_ids = [aws_security_group.ec2_sg.id]
 
 user_data = <<-EOF
